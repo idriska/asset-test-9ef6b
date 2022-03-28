@@ -10,6 +10,7 @@ Identity.initialize({ apikey: SECRET_API_KEY });
 export async function register(req, res) {
 	let { user_data } = req.body;
 	console.log("TEST 1")
+	console.log("TEST 2")
 
 	if (user_data.email && user_data.password) {
 		let identity = await Identity.insert({
