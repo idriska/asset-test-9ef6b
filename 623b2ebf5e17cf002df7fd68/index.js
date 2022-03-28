@@ -8,6 +8,8 @@ const mailFrom = process.env.MAIL_FROM || null
 
 export default async function(change) {
     console.log("TEST 2")
+    console.log("TEST 3")
+	console.log("TEST 4")
     console.log("Sending a mail. Parameters are: ", change);
 
     let buckets = {
